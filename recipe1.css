@@ -1,0 +1,577 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F7F9 !important;
+}
+
+.main-header {
+    background-color: black;
+}
+
+.header {
+    margin-left: 60px;
+    padding: 5px;
+}
+
+.logo {
+    position: relative;
+    top: 15px;
+}
+
+.navbar-links li {
+    list-style-type: none;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: -10px;
+}
+
+.icon-location i {
+    color: white;
+    margin-top: 5px;
+}
+
+.icon-location a {
+    left: -15px;
+    position: relative;
+    top: 2px;
+}
+
+.icon-location {
+    display: flex;
+    margin-left: 1100px;
+    margin-top: -53px;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+/* Hero page styling start*/
+.hero-page {
+    background-color: #F6F7F9;
+    margin: 32 auto;
+    display: flex;
+    padding: 50px;
+    width: 100%;
+}
+.hero-page img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero-page .background-text {
+    z-index: 999;
+    margin-left: 40px;
+    margin-top: -28em;
+}
+
+.hero-page .background-text #life {
+    border: none;
+    color: white;
+    background-color: #1F2027;
+    border-radius: 20px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.hero-page .background-text #check {
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    color: #1F2027;
+    margin-top: 20px;
+}
+
+.check {
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 130px;
+    transition: .2s ease;
+}
+
+.check:active {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.hero-page .background-text h1 {
+    width: 90%;
+    color: white;
+}
+
+/*Hero page styling end*/
+.all-wrapper {
+    padding: 50px;
+}
+
+/*Recipes page start*/
+.recipe-page {
+    margin-top: -40px;
+}
+
+.scroll {
+    position: absolute;
+    display: flex;
+    gap: 1235px;
+    margin-top: 95px;
+    margin-left: -15px;
+}
+
+.scroll a {
+    text-decoration: none;
+    color: black;
+}
+
+.scroll i {
+    width: 24px;
+    height: 25px;
+    background-color: #c3c5ca;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2000px;
+    z-index: 999;
+}
+
+.recipe-navbar {
+    gap: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.recipe-navbar a {
+    text-decoration: none;
+}
+
+.breakfast {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 2px;
+    text-align: center;
+    width: 130px;
+}
+
+.smart-me {
+    color: rgb(119, 113, 113);
+    margin-top: 6px;
+    transition: .2s ease;
+}
+
+.smart-me:active {
+    color: black;
+    font-weight: bold;
+}
+
+.recipes {
+    display: flex;
+    margin-left: 690px;
+    margin-top: 11px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.recipes h5 {
+    font-size: 15px;
+    margin-top: -3px;
+}
+
+.recipes i {
+    margin-left: 5px;
+}
+
+.recipe-menu {
+    margin-top: 30px;
+}
+
+.wisdom {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-content {
+    padding: 8px;
+    border: 1px solid gray;
+    width: fit-content;
+    height: fit-content;
+    transition: .2s ease;
+}
+
+.menu-content img {
+    width: 280px;
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+.menu-content:hover {
+    border: 2px solid black;
+}
+
+.menu-button {
+    display: flex;
+    gap: 7px;
+}
+
+.menu-button p {
+    border-radius: 3px;
+    background-color: rgb(192, 189, 189);
+    padding: 4px;
+}
+
+.time {
+    background-color: black;
+    width: 108px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.time::before {
+    content: url(time-icon.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 8px;
+}
+/* This overlay aplies to all section having overlay*/
+.overlay {
+    position: absolute;
+    transition: .3s ease;
+    opacity: 0;
+    margin-left: -9px;
+    margin-top: -11px;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay img {
+    width: 280px;
+    height: 190px;
+    margin-left: 10px;
+    margin-top: 9.8px;
+}
+
+.menu-content:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    font-weight: bold;
+    margin-top: -120px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+
+/*Recipes page end*/
+
+/* Food and health tips page start */
+.food-health {
+    margin-top: 50px;
+}
+
+.food-details {
+    display: flex;
+    gap: 20px;
+}
+
+.food-details2 {
+    display: flex;
+    gap: 20px;
+}
+
+.food-content {
+    padding: 8px;
+    border: 1px solid gray;
+    width: fit-content;
+    height: fit-content;
+    transition: .2s ease;
+    margin-top: 20px;
+}
+
+.food-content img {
+    width: 280px;
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+.food-content:hover {
+    border: 2px solid black;
+}
+
+.food-content:hover .overlay {
+    opacity: 1;
+}
+
+.food-text {
+    width: 280px;
+}
+
+.news {
+    text-decoration: none;
+}
+
+.news button {
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    width: 130px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-left: 560px;
+    margin-top: 30px;
+    transition: .3s ease;
+}
+
+.news button:active {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+/* Food and health tips page end */
+
+/* Lifestyle Vlog page start */
+.lifestyle-vlogs {
+    margin-top: 80px;
+}
+
+.lifestyle-vlogs .overlay img {
+    width: 405px;
+    height: 230px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.lifestyle-details {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.lifestyle-details img {
+    width: 405px;
+    height: 230px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.lifestyle-details2 {
+    display: flex;
+    gap: 20px;
+}
+
+.lifestyle-details2 img {
+    width: 405px;
+    height: 230px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.play {
+    border-radius: 2000px;
+    width: 24px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -210px;
+}
+
+/* Lifestyle Vlog page end */
+
+/* Footer page start*/
+.footer-page {
+    background-color: black;
+    padding: 30px;
+}
+
+.footer-page h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.footer-content {
+    display: flex;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-social {
+    transition: .2s ease-in-out;
+}
+
+.footer-social:hover {
+    border: 1px solid white;
+}
+
+.overlay4 {
+    content: url(twitter-color.png);
+    opacity: 0;
+    margin-top: -263px;
+    transition: .2s ease-in-out;
+}
+
+.overlay5 {
+    content: url(instagram-color.png);
+    opacity: 0;
+    margin-top: -263px;
+    transition: .2s ease-in-out;
+}
+
+.overlay6 {
+    content: url(facebook-color.png);
+    opacity: 0;
+    margin-top: -263px;
+    transition: .2s ease-in-out;
+}
+
+.overlay7 {
+    content: url(linkedin-color.png);
+    opacity: 0;
+    margin-top: -260px;
+    transition: .2s ease-in-out;
+}
+
+.overlay8 {
+    content: url(sayhi-color.png);
+    opacity: 0;
+    margin-top: -263px;
+    transition: .2s ease-in-out;
+}
+
+.footer-social:hover .overlay4 {
+    opacity: 1;
+}
+
+.footer-social:hover .overlay5 {
+    opacity: 1;
+}
+
+.footer-social:hover .overlay6 {
+    opacity: 1;
+}
+
+.footer-social:hover .overlay7 {
+    opacity: 1;
+}
+
+.footer-social:hover .overlay8 {
+    opacity: 1;
+}
+
+/* Footer page end*/
+
+/* Footer2 page start */
+.footer-about {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.footer-about .footer-logo {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.footer-about li {
+    list-style-type: none;
+}
+
+.footer-about a {
+    transition: .2s ease;
+    line-height: 40px;
+}
+
+.footer-about .support::before {
+    content: url(phone\ \(3\).png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-about .number::before {
+    content: url(phone\ \(1\).png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-about .address::before {
+    content: url(phone\ \(2\).png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-about a:hover {
+    text-decoration: underline;
+}
+
+.second-footer a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.second-footer ul {
+    margin-top: 20px;
+}
+
+.third-footer ul {
+    margin-top: 20px;
+}
+
+.third-footer a {
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+}
+
+.first-footer {
+    background-color: #EBF0F2;
+    width: 30%;
+    padding: 30px;
+}
+
+.second-footer h1 {
+    margin-top: 20px;
+}
+
+.second-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.third-footer {
+    background-color: #141723;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    color: white;
+}
+
+/* Footer2 page end */

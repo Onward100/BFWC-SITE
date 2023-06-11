@@ -1,0 +1,238 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Header styling start*/
+.header{
+    padding: 25px;
+}
+.header .logo{
+    margin-left: 40px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    margin-top: -25px;
+    margin-left: 400px;
+}
+.header li{
+    list-style-type: none;
+    font-size: 21px;
+}
+.address{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 1040px;
+    top: 15px;
+}
+.address::before{
+    content: url(meta2.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+/* Header styling end*/
+
+/* Add meal page styling start*/
+.add-meal h2{
+    margin-left: 63px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.search{
+    position: absolute;
+    left: 1040px;
+    top: 145px;
+}
+.input{
+    outline: none;
+    border: navajowhite;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.trigger_search{
+    outline: none;
+    border: none;
+    transform: scale(1.5);
+    background: none;
+    opacity: .7;
+}
+.links{
+    background-color: rgb(233, 227, 227);
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.slide-links{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+}
+.slide-links button{
+    border: 1px solid black;
+    width: 140px;
+    padding: 5px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+.direction-icons{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    gap: 1180px;
+    z-index: 999;
+    top: 210px;
+    left: 1px;
+}
+.slide-links li{
+    list-style-type: none;
+    border: 1px solid rgb(153, 146, 146);
+    padding: 5px;
+    border-radius: 30px;
+    width: 120px;
+    text-align: center;
+    margin-top: 15px;
+    transition: .2s ease;
+}
+.slide-links li:hover{
+    border: 1px solid black;
+}
+.slide-links a{
+    color: black;
+    text-decoration: none;
+}
+.inner-content{
+    display: flex;
+    margin-right: 20px;
+    text-align: center;
+}
+.meal-cards{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.overlay{
+    position: absolute;
+    top: 40px;
+    transition: .2s ease;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.overlay img{
+    width: 290px;
+    height: 170px;
+    border-radius: 5px;
+    margin-top: -28.6px;
+}
+.overlay p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: -100px;
+}
+.time{
+    border-top: 1px solid rgb(167, 162, 162);
+    border-right: 1px solid rgb(167, 162, 162);
+    border-left: 1px solid rgb(167, 162, 162);
+    border-radius: 5px 5px 0 0;
+    width: 110px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-bottom: -15.2px;
+    transition: .2s ease;
+    height: 30px;
+}
+.time::before{
+    content: url(time.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.cards-content{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .2s ease;
+    position: relative;
+}
+.cards-content:hover .overlay{
+    opacity: 1;
+}
+.cards-content:hover .time{
+    border: 1px solid black;
+}
+.cards-content h4{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.meal-amount{
+    display: flex;
+    justify-content: space-between;
+}
+.meal-amount .price{
+    font-weight: bold;
+}
+.meal-amount .rate::after{
+    content: url(rate.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+/* Add meal page styling end*/
+
+/* Total bill page start */
+    .total-bill{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        padding: 30px;
+        height: 80px;
+        position: sticky;
+        bottom: 0;
+    }
+    .total-bill .bill{
+        font-size: 22px;
+    }
+    .view-cart a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .2s ease;
+    }
+    .view-cart a:hover{
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    .view-cart a::after{
+        content: url(cart-direction.png);
+        display: inline-block;
+        vertical-align: middle;
+        transform: scale(.55);
+        margin-left: -3px;
+    }
+/* Total bill page end */

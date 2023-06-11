@@ -1,0 +1,225 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-color: rgb(236, 232, 232);
+}
+
+.connect-body {
+    display: flex;
+    gap: 150px;
+    margin-right: 30px;
+    padding: 80px;
+}
+
+.connect {
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+}
+
+.connect-text .text {
+    font-size: 24px;
+    width: 490px;
+}
+
+#close {
+    position: absolute;
+    left: 78px;
+    border: 1px solid #eee;
+}
+.connect h3 {
+    font-weight: bold;
+    margin-left: 150px;
+}
+.connect-text {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.metamask-wallet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover-connect {
+    transition: .2s ease;
+    height: 50px;
+    padding: 5px;
+}
+
+.hover-connect:hover {
+    border: 1px solid rgb(243, 235, 235);
+    padding: 5px;
+}
+
+.hover-connect a:hover {
+    background-color: black;
+    color: white;
+}
+
+.hover-connect:hover a {
+    opacity: 1;
+}
+
+.metamask-wallet a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+    font-weight: bold;
+    transition: .2s ease;
+    height: 40px;
+}
+
+.trust-wallet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trust-wallet a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: .2s ease;
+    height: 40px;
+}
+
+.binance-connect {
+    display: flex;
+    justify-content: space-between;
+}
+
+.binance-connect a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: .2s ease;
+    height: 40px;
+}
+
+.connect2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect2 a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    transition: .2s ease;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    height: 40px;
+}
+
+.metamask::before {
+    content: url(meta.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.trust::before {
+    content: url(trust.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.binance-wallet::before {
+    content: url(binnce-w.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.wallet-connect::before {
+    content: url(walet-connect.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.secure{
+    text-align: center;
+    margin-top: 10px;
+}
+/* connect 2 styling start */
+.connect-text2 {
+    margin-top: 36px;
+}
+
+.connect-text2 .guide {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.connect-text2 ol {
+    margin-top: 30px;
+}
+
+.connect-text2 li {
+    list-style-type: circle;
+    line-height: 30px;
+}
+
+.connect-text2 li {
+    line-height: 60px;
+}
+
+.connect-support {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cbcccc;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.contact-support {
+    font-weight: bold;
+    transition: .2s ease;
+}
+
+.contact-support:hover {
+    text-decoration: underline
+}
+
+.connect-support a {
+    text-decoration: none;
+    color: black;
+}
+.copyright{
+    text-align: center;
+    margin-top: -30px;
+}
+
+/* connect 2 styling end */
