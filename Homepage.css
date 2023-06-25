@@ -146,18 +146,20 @@ body {
 .featured-text h1 {
     font-size: 60px;
 }
-#datetime {
+.countdown-container{
+    display: flex;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     background-color: white;
     width: 500px;
-    height: 90px;
+    height: 130px;
     position: absolute;
     padding: 20px;
     left: 440px;
+    border: 1px solid black;
     border-radius: 5px;
-    top: 1300px;
+    top: 1320px;
     z-index: 999;
   }
 .card-section {
@@ -165,8 +167,8 @@ body {
     border-radius: 5px;
     padding: 50px;
     width: 1049px;
-    height: 390px;
-    top: 40px;
+    height: 460px;
+    top: 60px;
     border-radius: 4px;
     display: flex;
     position: relative;
@@ -472,7 +474,7 @@ body {
     padding: 15px;
     border-radius: 5px;
     position: absolute;
-    top: 3530px;
+    top: 3600px;
     font-weight: bold;
     left: 600px;
 }
@@ -658,7 +660,7 @@ body {
     padding: 15px;
     border-radius: 5px;
     position: absolute;
-    top: 5030px;
+    top: 5100px;
     font-weight: bold;
     left: 600px;
     width: 180px;
@@ -666,7 +668,7 @@ body {
     transition: .2s ease;
 }
 .more:active{
-    background-color: white;
+    background-color: transparent;
     color: black;
     border: 1px solid black;
 }
