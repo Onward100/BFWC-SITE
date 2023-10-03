@@ -12,6 +12,10 @@ body {
     overflow: hidden;
 }
 
+.logo-bfwc{
+    text-decoration: none;
+    cursor: pointer;
+}
 .logo {
     background: url(black-logo.png) no-repeat;
     width: 80px;
