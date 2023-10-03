@@ -12,10 +12,11 @@ body {
     overflow: hidden;
 }
 
-.logo-bfwc{
+.logo-bfwc {
     text-decoration: none;
     cursor: pointer;
 }
+
 .logo {
     background: url(black-logo.png) no-repeat;
     width: 80px;
@@ -43,7 +44,8 @@ body {
     padding: 10px;
     transition: .2s ease;
 }
-.navbar-links a:hover{
+
+.navbar-links a:hover {
     text-decoration: underline;
 }
 
@@ -51,7 +53,8 @@ body {
     margin-top: -112px;
     margin-left: 1160px;
 }
-.location a:hover{
+
+.location a:hover {
     text-decoration: underline;
 }
 
@@ -68,11 +71,13 @@ body {
     width: 100%;
     height: 100vh;
 }
-.bg-image{
+
+.bg-image {
     background: url(Bg-img3.png) no-repeat;
     width: 100%;
     height: 800px;
 }
+
 .hero-text {
     color: white;
     text-align: center;
@@ -109,23 +114,51 @@ body {
 
 /* Hero page styling end */
 
-.slider-frame{
+.slider-frame {
     overflow: hidden;
 }
-@-webkit-keyframes slide_animation{
-    0% {left: 0px;}
-    10% {left: -30px;}
-    20% {left: -20px;}
-    40% {left: -100px;}
-    50% {left: 0px;}
-    60% {left: -60px;}        
-    80% {left: 30px;}   
-    90% {left: 0px;}   
-    100% {left: 0px;}   
+
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: -30px;
+    }
+
+    20% {
+        left: -20px;
+    }
+
+    40% {
+        left: -100px;
+    }
+
+    50% {
+        left: 0px;
+    }
+
+    60% {
+        left: -60px;
+    }
+
+    80% {
+        left: 30px;
+    }
+
+    90% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
 }
-.slider-image{
+
+.slider-image {
     width: 100%;
-    margin:  0 0 0 -20px;
+    margin: 0 0 0 -20px;
     position: relative;
     display: flex;
     -webkit-animation-name: slide_animation;
@@ -133,6 +166,7 @@ body {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-play-state: running;
 }
+
 /* Featured-meals page styling start */
 
 .featured-text {
@@ -150,7 +184,8 @@ body {
 .featured-text h1 {
     font-size: 60px;
 }
-.countdown-container{
+
+.countdown-container {
     display: flex;
     font-size: 30px;
     font-weight: bold;
@@ -165,7 +200,8 @@ body {
     border-radius: 5px;
     top: 1320px;
     z-index: 999;
-  }
+}
+
 .card-section {
     border: 1px solid black;
     border-radius: 5px;
@@ -281,7 +317,8 @@ body {
     font-weight: bold;
     transition: .2s ease;
 }
-.connect-wallet:active{
+
+.connect-wallet:active {
     background-color: transparent;
     color: black;
     border: 1px solid black;
@@ -296,6 +333,7 @@ body {
     padding: 20px;
     color: white;
 }
+
 .headtext {
     opacity: .4;
     color: white;
@@ -353,66 +391,80 @@ body {
     opacity: .8;
     margin-left: 330px;
 }
-.grid-container{
+
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5px;
 }
 
-.item1{
+.item1 {
     transition: .2s ease;
 }
-.item4{
+
+.item4 {
     transition: .2s ease;
 }
+
 .item2 {
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: 2;
     margin-top: -335px;
     transition: .2s ease;
-  
+
 }
+
 .item5 {
     grid-column-start: 3;
     grid-row-start: 2;
     margin-top: -335px;
     transition: .2s ease;
 }
+
 .item3 {
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.item3 img{
+
+.item3 img {
     height: 620px;
 }
-.overlay9{
+
+.overlay9 {
     position: absolute;
     margin-top: 70px;
     margin-left: 140px;
     opacity: 0;
     transition: .2s ease;
 }
+
 .overlay9 h2 {
     color: white;
     font-weight: bold;
 }
-.overlay9:hover{
+
+.overlay9:hover {
     opacity: 1;
 }
-.item1:hover .overlay9{
+
+.item1:hover .overlay9 {
     opacity: 1;
 }
-.item4:hover .overlay9{
+
+.item4:hover .overlay9 {
     opacity: 1;
 }
-.item5:hover .overlay9{
+
+.item5:hover .overlay9 {
     opacity: 1;
 }
-.item2:hover .overlay9{
+
+.item2:hover .overlay9 {
     opacity: 1;
 }
+
 /* Food gallery page end*/
 
 /* How it works page start*/
@@ -550,10 +602,11 @@ body {
 }
 
 /* Food blog start */
-.food-blog{
+.food-blog {
     background-color: #F6F7F9;
     padding: 20px;
 }
+
 .food-blog h1 {
     font-size: 50px;
     text-align: center;
@@ -613,10 +666,12 @@ body {
     opacity: 0;
     transition: .2s ease-in-out;
 }
-.overlay2 img{
+
+.overlay2 img {
     margin-left: 120px;
     margin-top: 20px;
 }
+
 .overlay2 h2 {
     margin-left: 68px;
     margin-top: 20px;
@@ -633,10 +688,12 @@ body {
     opacity: 0;
     transition: .2s ease-in-out;
 }
-.overlay3 img{
+
+.overlay3 img {
     margin-left: 120px;
     margin-top: 20px;
 }
+
 .overlay3 h2 {
     margin-left: 68px;
     margin-top: 20px;
@@ -671,7 +728,8 @@ body {
     text-align: center;
     transition: .2s ease;
 }
-.more:active{
+
+.more:active {
     background-color: transparent;
     color: black;
     border: 1px solid black;
@@ -704,205 +762,250 @@ body {
 .footer-social:hover {
     border: 1px solid white;
 }
-.overlay4{
+
+.overlay4 {
     content: url(twitter-color.png);
     opacity: 0;
     margin-top: -263px;
     transition: .2s ease-in-out;
 }
-.overlay5{
+
+.overlay5 {
     content: url(instagram-color.png);
     opacity: 0;
     margin-top: -263px;
     transition: .2s ease-in-out;
 }
-.overlay6{
+
+.overlay6 {
     content: url(facebook-color.png);
     opacity: 0;
     margin-top: -263px;
     transition: .2s ease-in-out;
 }
-.overlay7{
+
+.overlay7 {
     content: url(linkedin-color.png);
     opacity: 0;
     margin-top: -260px;
     transition: .2s ease-in-out;
 }
-.overlay8{
+
+.overlay8 {
     content: url(sayhi-color.png);
     opacity: 0;
     margin-top: -263px;
     transition: .2s ease-in-out;
 }
-.footer-social:hover .overlay4{
+
+.footer-social:hover .overlay4 {
     opacity: 1;
 }
-.footer-social:hover .overlay5{
+
+.footer-social:hover .overlay5 {
     opacity: 1;
 }
-.footer-social:hover .overlay6{
+
+.footer-social:hover .overlay6 {
     opacity: 1;
 }
-.footer-social:hover .overlay7{
+
+.footer-social:hover .overlay7 {
     opacity: 1;
 }
-.footer-social:hover .overlay8{
+
+.footer-social:hover .overlay8 {
     opacity: 1;
 }
+
 /* Footer page end*/
 
 /* Footer2 page start */
-    .footer-about{
-        display: flex;
-        gap: 10px;
-        justify-content: space-between;
-    }
-    .footer-about .footer-logo{
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-    .footer-about li{
-        list-style-type: none;
-    }
-    .footer-about a{
-        transition: .2s ease;
-        line-height: 40px;
-    }
-    .footer-about .support::before{
-        content: url(phone\ \(3\).png);
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 10px;
-    }
-    .footer-about .number::before{
-        content: url(phone\ \(1\).png);
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 10px;
-    }
-    .footer-about .address::before{
-        content: url(phone\ \(2\).png);
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 10px;
-    }
-    .footer-about a:hover{
-        text-decoration: underline;
-    }
-    .second-footer a{
-        color: black;
-        text-decoration: none;
-        margin-top: 20px;
-    }
-    .second-footer ul{
-        margin-top: 20px;
-    }
-    .third-footer ul{
-        margin-top: 20px;
-    }
-    .third-footer a{
-        text-decoration: none;
-        color: white;
-        opacity: .7;
-    }
-    .first-footer{
-        background-color: #EBF0F2;
-        width: 30%;
-        padding: 30px;
-    }
-    .second-footer h1{
-        margin-top: 20px;
-    }
-    .second-footer{
-        background-color: white;
-        padding: 10px;
-        text-align: center;
-    }
-    .third-footer{
-        background-color: #141723;
-        padding: 20px;
-        text-align: center;
-        width: 30%;
-        color: white;
-    }
+.footer-about {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.footer-about .footer-logo {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.footer-about li {
+    list-style-type: none;
+}
+
+.footer-about a {
+    transition: .2s ease;
+    line-height: 40px;
+}
+
+.footer-about .support::before {
+    content: url(phone\ \(3\).png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-about .number::before {
+    content: url(phone\ \(1\).png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-about .address::before {
+    content: url(phone\ \(2\).png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-about a:hover {
+    text-decoration: underline;
+}
+
+.second-footer a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.second-footer ul {
+    margin-top: 20px;
+}
+
+.third-footer ul {
+    margin-top: 20px;
+}
+
+.third-footer a {
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+}
+
+.first-footer {
+    background-color: #EBF0F2;
+    width: 30%;
+    padding: 30px;
+}
+
+.second-footer h1 {
+    margin-top: 20px;
+}
+
+.second-footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.third-footer {
+    background-color: #141723;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    color: white;
+}
+
 /* Footer2 page end */
 
 
 @media screen and (max-width: 820px) {
-    .header .logo{
+    .header .logo {
         margin-left: -80px;
         transform: scale(.4px) !important;
     }
-    .navbar-links{
+
+    .navbar-links {
         margin-left: 30px;
     }
-    .location{
+
+    .location {
         margin-left: 650px;
     }
-   
-    .hero-text{
-    text-align: center;
-    left: 170px;
-    font-size: 30px;
+
+    .hero-text {
+        text-align: center;
+        left: 170px;
+        font-size: 30px;
     }
-    .slider-frame{
+
+    .slider-frame {
         margin-top: -490px;
     }
-    .featured-text h1{
+
+    .featured-text h1 {
         margin-left: 20px;
     }
-    .featured-text p{
+
+    .featured-text p {
         margin-left: 50px;
     }
-    .contdown-content{
+
+    .contdown-content {
         width: 600px;
         margin-left: 70px;
     }
-    .card-section{
+
+    .card-section {
         left: 0;
         width: 100%;
         justify-content: left;
     }
-    .fourth{
+
+    .fourth {
         display: none;
     }
-    .connect-wallet{
+
+    .connect-wallet {
         margin-left: 320px;
         margin-top: 120px;
     }
-    .partner-page{
+
+    .partner-page {
         width: 100%;
     }
-    .headtext{
+
+    .headtext {
         margin-left: 10px;
     }
-    .partners{
+
+    .partners {
         margin-left: 20px;
         gap: 30px;
     }
-    .food-gallery h1{
+
+    .food-gallery h1 {
         margin-left: 40px;
     }
-    .food-gallery p{
+
+    .food-gallery p {
         margin-left: 50px;
     }
-    .food-gallery .grid-container{
+
+    .food-gallery .grid-container {
         transform: scale(.6);
         margin-left: -180px;
         margin-top: -120px;
     }
-    .work-wrapper{
+
+    .work-wrapper {
         margin-top: -120px;
     }
-    .how-it-works{
+
+    .how-it-works {
         justify-content: left;
     }
-    .work-page{
-       transform: scale(.9);
+
+    .work-page {
+        transform: scale(.9);
     }
-    .work-btn{
+
+    .work-btn {
         margin-top: -290px;
         margin-left: -250px;
     }
 }
-
