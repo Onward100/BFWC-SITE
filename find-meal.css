@@ -58,19 +58,14 @@ body {
     color: white;
     cursor: pointer;
     transition: .2s ease;
-    border: 1px solid white;
-    border-radius: 20px;
-    width: 125px;
     text-align: center;
-    height: 50px;
-    padding: 2px;
     position: absolute;
-    top: 4px;
+    top: -8px;
     left: 1140px;
     transition: .2s ease;
 }
 .view-cart a:hover{
-    transform: translateX(-5px);
+    transform: translateX(-4px);
 }
 .view-cart a::after{
     content: url(cart-direction.png);

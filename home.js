@@ -33,4 +33,4 @@ function countdown(endDate) {
 }
 
 // Example usage: countdown("June 30, 2023 23:59:59");
-countdown("July 30, 2023 23:59:59");
+countdown("July 30, 2025 23:59:59");
